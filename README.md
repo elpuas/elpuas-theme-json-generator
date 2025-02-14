@@ -29,22 +29,22 @@ The theme.json schema is a JSON object that defines the structure of the theme.j
 
 ### Installation
 
-1.  Clone the Repository:
+1. Clone the Repository:
 
-```
+```bash
 git clone <https://github.com/yourusername/theme-json-generator.git>
 cd theme-json-generator
 ```
 
-2.  Install Dependencies:
+2. Install Dependencies:
 
-```
+```bash
 npm install
 ```
 
-3.  Run the Development Server:
+3. Run the Development Server:
 
-```
+```bash
 npm run dev
 ```
 
@@ -54,7 +54,7 @@ Connect the repository to Netlify for automatic deployment. No special backend i
 
 ## File Structure
 
-```
+```bash
 /src
   /pages
     index.astro
@@ -87,17 +87,17 @@ tsconfig.json
 
 ## Usage
 
-1.  Open the app in your browser.
-2.  Fill out the form fields to configure your theme settings.
-3.  Click the “Generate” button to preview your JSON.
-4.  Click the “Download” button to save your theme.json file.
+1. Open the app in your browser.
+2. Fill out the form fields to configure your theme settings.
+3. Click the “Generate” button to preview your JSON.
+4. Click the “Download” button to save your theme.json file.
 
 ## Contribution Guidelines
 
-• Fork the repository.
-• Create a new branch for your feature or fix.
-• Ensure your code is modular and maintainable.
-• Submit a pull request with a detailed explanation of your changes.
+- Fork the repository.
+- Create a new branch for your feature or fix.
+- Ensure your code is modular and maintainable.
+- Submit a pull request with a detailed explanation of your changes.
 
 ## License
 
@@ -105,13 +105,13 @@ This project is licensed under the MIT License. See the LICENSE file for details
 
 ## AI Agent Instructions
 
-• Objective: Build an Astro web app for generating WordPress theme.json files.
-• Key Tasks:
-• Create a modular project structure with components for form inputs.
-• Implement real-time JSON generation and validation.
-• Integrate file download functionality using the Blob API.
-• Ensure code adheres to the WordPress theme.json schema.
-• Future Enhancements:
-• Session saving/loading.
-• Version control for theme changes.
-• Enhanced UI/UX improvements.
+- Objective: Build an Astro web app for generating WordPress theme.json files.
+- Key Tasks:
+- Create a modular project structure with components for form inputs.
+- Implement real-time JSON generation and validation.
+- Integrate file download functionality using the Blob API.
+- Ensure code adheres to the WordPress theme.json schema.
+- Future Enhancements:
+- Session saving/loading.
+- Version control for theme changes.
+- Enhanced UI/UX improvements.
