@@ -66,6 +66,8 @@ Connect the repository to Netlify for automatic deployment. No special backend i
       Input.astro
       Select.astro
       Textarea.astro
+  /layouts
+    Layout.astro
   /styles
     global.css
     components.css
@@ -76,6 +78,7 @@ Connect the repository to Netlify for automatic deployment. No special backend i
 /public
   favicon.ico
 /theme.json       // Example output file
+/theme-json-schema.json // The theme.json schema
 README.md
 package.json
 astro.config.mjs
