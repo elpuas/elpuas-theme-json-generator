@@ -1,0 +1,54 @@
+{
+    "rules": [
+        {
+            "pattern": "src/components/**/*.astro",
+            "group": "Components"
+        },
+        {
+            "pattern": "src/layouts/**/*.astro",
+            "group": "Layouts"
+        },
+        {
+            "pattern": "src/pages/**/*.astro",
+            "group": "Pages"
+        },
+        {
+            "pattern": "src/styles/**/*.css",
+            "group": "Styles"
+        },
+        {
+            "pattern": "src/utils/**/*.ts",
+            "group": "Utilities"
+        },
+        {
+            "pattern": "*.json",
+            "group": "Configuration"
+        }
+    ],
+    "groups": [
+        {
+            "name": "Components",
+            "priority": 100
+        },
+        {
+            "name": "Pages",
+            "priority": 90
+        },
+        {
+            "name": "Layouts",
+            "priority": 80
+        },
+        {
+            "name": "Styles",
+            "priority": 70
+        },
+        {
+            "name": "Utilities",
+            "priority": 60
+        },
+        {
+            "name": "Configuration",
+            "priority": 50
+        }
+    ]
+} 

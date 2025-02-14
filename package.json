@@ -1,0 +1,53 @@
+{
+    "name": "theme-json-generator",
+    "version": "1.0.0",
+    "description": "A web app built with Astro to create WordPress theme.json files via a user-friendly form",
+    "type": "module",
+    "scripts": {
+        "dev": "astro dev",
+        "start": "astro dev",
+        "build": "astro build",
+        "preview": "astro preview",
+        "astro": "astro",
+        "lint": "eslint . --ext .js,.ts,.astro",
+        "lint:fix": "eslint . --ext .js,.ts,.astro --fix",
+        "format": "prettier --write .",
+        "check": "astro check && tsc --noEmit"
+    },
+    "dependencies": {
+        "astro": "^4.0.0"
+    },
+    "devDependencies": {
+        "@types/node": "^20.0.0",
+        "@typescript-eslint/eslint-plugin": "^6.0.0",
+        "@typescript-eslint/parser": "^6.0.0",
+        "eslint": "^8.0.0",
+        "eslint-config-prettier": "^9.0.0",
+        "eslint-plugin-astro": "^0.31.0",
+        "eslint-plugin-prettier": "^5.0.0",
+        "prettier": "^3.0.0",
+        "prettier-plugin-astro": "^0.12.0",
+        "typescript": "^5.0.0"
+    },
+    "engines": {
+        "node": ">=20.0.0"
+    },
+    "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yourusername/theme-json-generator.git"
+    },
+    "keywords": [
+    "wordpress",
+    "theme",
+    "json",
+    "generator",
+    "astro",
+    "web-app"
+    ],
+    "author": "",
+    "license": "MIT",
+    "bugs": {
+    "url": "https://github.com/yourusername/theme-json-generator/issues"
+    },
+    "homepage": "https://github.com/yourusername/theme-json-generator#readme"
+} 
