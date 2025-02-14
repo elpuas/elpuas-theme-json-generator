@@ -32,7 +32,7 @@ The theme.json schema is a JSON object that defines the structure of the theme.j
 1. Clone the Repository:
 
 ```bash
-git clone <https://github.com/yourusername/theme-json-generator.git>
+git clone <https://github.com/elpuas/elpuas-theme-json-generator.git>
 cd theme-json-generator
 ```
 

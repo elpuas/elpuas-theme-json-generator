@@ -33,21 +33,21 @@
         "node": ">=20.0.0"
     },
     "repository": {
-    "type": "git",
-    "url": "git+https://github.com/yourusername/theme-json-generator.git"
+        "type": "git",
+        "url": "git+https://github.com/elpuas/elpuas-theme-json-generator.git"
     },
     "keywords": [
-    "wordpress",
-    "theme",
-    "json",
-    "generator",
-    "astro",
-    "web-app"
+        "wordpress",
+        "theme",
+        "json",
+        "generator",
+        "astro",
+        "web-app"
     ],
     "author": "",
     "license": "MIT",
     "bugs": {
-    "url": "https://github.com/yourusername/theme-json-generator/issues"
+        "url": "https://github.com/elpuas/elpuas-theme-json-generator.git"
     },
-    "homepage": "https://github.com/yourusername/theme-json-generator#readme"
-} 
+    "homepage": "https://github.com/elpuas/elpuas-theme-json-generator.git"
+}
